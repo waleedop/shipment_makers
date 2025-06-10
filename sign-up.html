@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Start Head -->
+
+<title>Shipment Masters - Sign Up</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favic.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<!-- End Head -->
+
+<body>
+
+    <nav class="fixed" id="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="nav__menu" id="nav-menu">
+
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="index.html" id="home" class="nav__link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="about-us.html" id="about" class="nav__link">About Us</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="services.html" id="services" class="nav__link">Services</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="blogs.html" id="blogs" class="nav__link">Blogs</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="contact-us.html" id="contact" class="nav__link">Contact Us</a>
+                            </li>
+                            <li class="nav__item d-lg-none">
+                                <a href="sign-in.html" id="sign-in" class="nav__link">Sign In</a>
+                            </li>
+                            <li class="nav__item d-lg-none">
+                                <a href="sign-up.html" id="sign-up" class="nav__link">Sign Up</a>
+                            </li>
+                        </ul>
+
+                        <div class="nav__close" id="nav-close">
+                            <i class='bx bx-x'></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="index.html" class="nav__logo">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-5 text-end">
+                    <div class="sign-button">
+                        <a href="sign-in.html"><button class="get-started m-right" type="button"><span>Sign
+                                    In</span></button></a>
+                        <a href="sign-up.html"><button class="get-started" type="button"><span>Sign
+                                    Up</span></button></a>
+                    </div>
+
+                    <div class="nav__btns">
+                        <div class="nav__toggle" id="nav-toggle">
+                            <i class='bx bx-menu'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Start Header -->
+
+    <header class="service-header-image s-header">
+
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Start Sign Up -->
+
+    <section class="sign-up-header">
+        <div class="container">
+            <div class="row justify-content-center wow animate__ animate__zoomIn animated" data-wow-duration="2s">
+                <div class="col-lg-10 col-md-12 col-sm-12">
+                    <div class="navTab">
+                        <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation"><button class="nav-link active" id="pills-one-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-one" type="button" role="tab"
+                                    aria-controls="pills-one" aria-selected="true"> Broker Sign Up </button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" id="pills-two-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-two" type="button" role="tab"
+                                    aria-controls="pills-two" aria-selected="false"> Carrier Sign Up </button></li>
+                        </ul>
+                    </div>
+                    <div class="container tab-content navTabContent mtop" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-one" role="tabpanel"
+                            aria-labelledby="pills-one-tab">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <form action="">
+                                        <div class="sign-in-form">
+                                            <div class="sign-up-heading sign-heading">
+                                                <h1>Broker Profile Sign Up</h1>
+                                                <p>Already Have An Account? <a href="sign-in.html">Sign In</a></p>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <label for="">First Name</label>
+                                                    <input type="text" class="sign-field mb-3" placeholder="First Name">
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <label for="">Last Name</label>
+                                                    <input type="text" class="sign-field mb-3" placeholder="Last Name">
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <label for="">Company Name</label>
+                                                    <input type="text" class="sign-field mb-3"
+                                                        placeholder="Company Name">
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <label for="">City</label>
+                                                    <input type="text" class="sign-field mb-3" placeholder="City">
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <label for="">State</label>
+                                                    <select class="form-select formSelect mb-3"
+                                                        aria-label="Default select example">
+                                                        <option selected="">State</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <label for="">Country</label>
+                                                    <select class="form-select formSelect mb-3"
+                                                        aria-label="Default select example">
+                                                        <option selected="">Country</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-lg-8 col-md-6 col-sm-12">
+                                                    <label for="">Address</label>
+                                                    <input type="text" class="sign-field mb-3" placeholder="Address">
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <label for="">Phone No</label>
+                                                    <input type="tel" class="sign-field mb-3" placeholder="Phone No">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                    <label for="">Email Address</label>
+                                                    <input type="email" class="sign-field mb-3"
+                                                        placeholder="Email Address">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                    <label for="">Website</label>
+                                                    <input type="url" class="sign-field mb-3" placeholder="Website">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                    <label for="">US DOT Number</label>
+                                                    <input type="number" class="sign-field mb-3"
+                                                        placeholder="US DOT Number">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                    <label for="">Broker MC Number</label>
+                                                    <input type="number" class="sign-field mb-3"
+                                                        placeholder="Broker MC Number">
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <label for="">SCAC Code</label>
+                                                    <input type="text" class="sign-field mb-3" placeholder="SCAC Code">
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <label for="">Service Market Area</label>
+                                                    <select class="form-select formSelect  mb-3"
+                                                        aria-label="Default select example">
+                                                        <option selected="">Service Market Area</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <label for="">Upload Logo</label>
+                                                    <input type="file" class="sign-field mb-3"
+                                                        placeholder="Upload Logo">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                    <div class="p-relative">
+                                                        <label for="">Password</label>
+                                                        <input type="password" class="sign-field mb-3"
+                                                            placeholder="Password" id="password">
+                                                        <i class="fa fa-fw fa-eye-slash password-icon toggle-password"
+                                                            toggle="#password" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                    <div class="p-relative">
+                                                        <label for="">Re-Enter Password</label>
+                                                        <input type="password" class="sign-field mb-3"
+                                                            placeholder="Re-Enter Password" id="re-enter-password">
+                                                        <i class="fa fa-fw fa-eye-slash password-icon toggle-password-re-enter"
+                                                            toggle="#re-enter-password" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <div class="rentSubmit">
+                                                        <a
+                                                            href="https://project.designprosusa.com/locate-a-rate/broker-dashboard/dashboard.html"><button
+                                                                class="get-started getHover" type="button"><span>Sign
+                                                                    Up</span></button></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="navTab">
+                                        <ul class="nav nav-pills justify-content-center" id="pills-tab-sub"
+                                            role="tablist">
+                                            <li class="nav-item" role="presentation"><button class="nav-link active"
+                                                    id="pills-sub-one-tab" data-bs-toggle="pill"
+                                                    data-bs-target="#pills-sub-one" type="button" role="tab"
+                                                    aria-controls="pills-sub-one" aria-selected="true"> For Carrier
+                                                </button></li>
+                                            <li class="nav-item" role="presentation"><button class="nav-link"
+                                                    id="pills-sub-two-tab" data-bs-toggle="pills"
+                                                    data-bs-target="#pills-sub-two" type="button" role="tab"
+                                                    aria-controls="pills-sub-two" aria-selected="false"> Accessorial
+                                                    Fees </button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="container tab-content navTabContent mt-5 p-0" id="pills-tab-subContent">
+                                        <div class="tab-pane fade show active" id="pills-sub-one" role="tabpanel"
+                                            aria-labelledby="pills-sub-one-tab">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <form action="">
+                                                        <div class="sign-in-form">
+                                                            <div class="sign-up-heading sign-heading">
+                                                                <h1>Carrier Profile Sign Up</h1>
+                                                                <p>Already Have An Account? <a href="sign-in.html">Sign
+                                                                        In</a></p>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">First Name</label>
+                                                                    <input type="text" class="sign-field mb-3"
+                                                                        placeholder="First Name">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">Last Name</label>
+                                                                    <input type="text" class="sign-field mb-3"
+                                                                        placeholder="Last Name">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">Company Name</label>
+                                                                    <input type="text" class="sign-field mb-3"
+                                                                        placeholder="Company Name">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">City</label>
+                                                                    <input type="text" class="sign-field mb-3"
+                                                                        placeholder="City">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">State</label>
+                                                                    <select class="form-select formSelect mb-3"
+                                                                        aria-label="Default select example">
+                                                                        <option selected="">State</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">Country</label>
+                                                                    <select class="form-select formSelect mb-3"
+                                                                        aria-label="Default select example">
+                                                                        <option selected="">Country</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-lg-8 col-md-6 col-sm-12">
+                                                                    <label for="">Address</label>
+                                                                    <input type="text" class="sign-field mb-3"
+                                                                        placeholder="Address">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">Phone No</label>
+                                                                    <input type="tel" class="sign-field mb-3"
+                                                                        placeholder="Phone No">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">Email Address</label>
+                                                                    <input type="email" class="sign-field mb-3"
+                                                                        placeholder="Email Address">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">Website</label>
+                                                                    <input type="url" class="sign-field mb-3"
+                                                                        placeholder="Website">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">Services</label>
+                                                                    <select class="form-select formSelect mb-3"
+                                                                        aria-label="Default select example">
+                                                                        <option selected="">Services</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">US DOT Number</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="US DOT Number">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">MC Number</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="MC Number">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">Number Of Units</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Number Of Units">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">SCAC Code</label>
+                                                                    <input type="text" class="sign-field mb-3"
+                                                                        placeholder="SCAC Code">
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">Service Market Area</label>
+                                                                    <select class="form-select formSelect  mb-3"
+                                                                        aria-label="Default select example">
+                                                                        <option selected="">Service Market Area</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                    <label for="">Upload Logo</label>
+                                                                    <input type="file" class="sign-field mb-3"
+                                                                        placeholder="Upload Logo">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <div class="p-relative">
+                                                                        <label for="">Password</label>
+                                                                        <input type="password" class="sign-field mb-3"
+                                                                            placeholder="Password" id="password-one">
+                                                                        <i class="fa fa-fw fa-eye-slash password-icon toggle-password-one"
+                                                                            toggle="#password-one"
+                                                                            aria-hidden="true"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <div class="p-relative">
+                                                                        <label for="">Re-Enter Password</label>
+                                                                        <input type="password" class="sign-field mb-3"
+                                                                            placeholder="Re-Enter Password"
+                                                                            id="re-enter-password-one">
+                                                                        <i class="fa fa-fw fa-eye-slash password-icon toggle-password-re-enter-one"
+                                                                            toggle="#re-enter-password-one"
+                                                                            aria-hidden="true"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                                    <div class="rentSubmit">
+                                                                        <a href="javascript:void(0)"><button
+                                                                                id="toggle-button"
+                                                                                class="get-started getHover"
+                                                                                type="button"><span>Next</span></button></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-sub-two" role="tabpanel"
+                                            aria-labelledby="pills-sub-two-tab">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <form action="">
+                                                        <div class="sign-in-form">
+                                                            <div class="sign-up-heading sign-heading mb-4">
+                                                                <h1>Accessorial Fees</h1>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Chassis Per Day</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Chassis Per Day $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Dangerous Goods</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Dangerous Goods $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Chassis Flip</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Chassis Flip $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Storage</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Storage $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Chassis Split</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Chassis Split $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Layover</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Layover $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Detention Wait Time Then Per
+                                                                        Hour</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Detention Wait Time ____ then $____ per hour">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Residential</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Residential $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Rail/Port Wait Time Hour/s Then Per
+                                                                        Hour</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Rail/Port Wait Time ____ Hour/s Then $____ Per Hour">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Driver Assist Per Hour</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Driver Assist Per Hour $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Scales (Per Scale)</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Scales (Per  Scale) $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Lumper</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Lumper $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Reefer</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Reefer $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Stop Off Per Stop</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Stop Off Per Stop $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Overweight</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Overweight $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Trailer Cleaning</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Trailer Cleaning $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Permits</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Permits $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">SOC</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="SOC $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Pre-Pull</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Pre-Pull $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Additional Dray</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Additional Dray $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Hazmat</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Hazmat $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Tarping</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Tarping $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Straping</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Straping $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Oversized</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Oversized $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Chaining</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Chaining $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Alcohol/Vine</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Alcohol/Vine $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Deadhead Per Mile</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Deadhead Per Mile $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Tanker</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Tanker $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Dunnage/Trash Disposal</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Dunnage/Trash Disposal $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Reconsignment</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Reconsignment $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Liftgate</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Liftgate $____">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <label for="">Tolls</label>
+                                                                    <input type="number" class="sign-field mb-3"
+                                                                        placeholder="Tolls $____">
+                                                                </div>
+                                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                                    <div class="accessorial-buttons">
+                                                                        <a href="javascript:void(0)"><button
+                                                                                class="get-started getHover"
+                                                                                type="button"><span>Quarterly Plan
+                                                                                    Review $150</span></button></a>
+                                                                        <a href="javascript:void(0)"><button
+                                                                                class="get-started getHover"
+                                                                                type="button"><span>Yearly Plan Review
+                                                                                    $550</span></button></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Sign Up -->
+
+    <!-- Start Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row mb-4">
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="footerImage">
+                        <a href="index.html">
+                            <img src="./assets/images/logo-white.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footerText">
+                        <h5>About</h5>
+                        <p>At Shipment Masters, we're simplify the rating experience.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-9 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12 col-sm-12">
+                            <div class="pages">
+                                <div class="pageHeading">
+                                    <h5>Pages</h5>
+                                </div>
+                                <div class="pageLinks">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="blogs.html">Blogs</a></li>
+                                        <li><a href="contact-us.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-12 col-sm-12">
+                            <div class="pages">
+                                <div class="pageHeading">
+                                    <h5>Services</h5>
+                                </div>
+                                <div class="pageLinks">
+                                    <ul>
+                                        <li><a href="services.html">Intermodal Drayage</a></li>
+                                        <li><a href="services.html">Dry Van Truck Load</a></li>
+                                        <li><a href="services.html">Flatbed</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-12 col-sm-12">
+                            <div class="pages">
+                                <div class="pageHeading">
+                                    <h5>Social Links</h5>
+                                </div>
+                                <div class="pageLinks">
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                                        <li><a href="https://www.X.com/" target="_blank">X</a></li>
+                                        <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="contactBox">
+                                <div class="contactHeading">
+                                    <h5>Contact Us</h5>
+                                </div>
+                                <div class="followLinks">
+                                    <div class="contactLink d-flex">
+                                        <div class="emailIcon">
+                                            <i class='bx bxs-envelope'></i>
+                                        </div>
+                                        <div class="locationText">
+                                            <a href="mailto:wasif2297@gmail.com">
+                                                <p>wasif2297@gmail.com</p>
+                                              </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="followLinks">
+                                    <div class="contactLinks">
+                                        <div class="locationIcon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="locationText">
+                                            <a
+                                            href="https://maps.app.goo.gl/9amU2eYhpqmDENtk7"
+                                            target="_blank"
+                                          >
+                                            <p>Block 7 Gulshan-e-Iqbal, Karachi</p>
+                                          </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div class="get-quote">
+                        <h5>looking for the best transport services</h5>
+                        <div class="get-button">
+                            <a href="about-us.html"><button class="get-started get-color" type="button"><span>Get A Quote
+                                        <i class="fas fa-arrow-right"></i></span></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="line">
+                        <hr />
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="terms">
+                        <ul>
+                            <li><a href="terms-and-condition.html">Terms & Condition</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="help.html">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="copy-right">
+                        <p>© All Rights Reserved 2024 By Shipment Masters<br>
+                            Designed And Developed By <a href="#" target="_blank"
+                            >Waleed Asif, Waleed Ramzan , Syed Meesam Haider
+                          </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer -->
+
+
+    <script src="assets/js/main.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const button = document.getElementById('toggle-button');
+        const targetSubTwo = document.getElementById('pills-sub-two');
+        const targetSubTwoTab = document.getElementById('pills-sub-two-tab');
+        const targetSubOne = document.getElementById('pills-sub-one');
+        const targetSubOneTab = document.getElementById('pills-sub-one-tab');
+
+        button.addEventListener('click', () => {
+            // Toggle the 'active' and 'show' classes on the target tab
+            targetSubTwo.classList.toggle('active');
+            targetSubTwoTab.classList.toggle('active');
+            targetSubOne.classList.remove('active');
+            targetSubOneTab.classList.remove('active');
+            targetSubTwo.classList.toggle('show');
+
+            // Scroll the page to the top
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+
+</body>
+
+</html>
